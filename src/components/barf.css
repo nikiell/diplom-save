@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    background-color: #f0f7fa;
+    padding: 20px;
+    
+    
+  }
+  .conteiner {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  div {
+    margin-bottom: 5px;
+  }
+  
+  label {
+    font-size: 1.5rem;
+  }
+  
+  input,
+  select {
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 12px;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+   
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  .results {
+    margin-top: 15px;
+    padding: 10px;
+    
+    border-radius: 16px;
+    text-align: center;
+  }
+  
+  .results p {
+    font-size: 1.5rem;
+  }
+  
+  .buttonCat {
+    
+    background-color: #8256c0;
+    
+  }
+  .buttonDog{
+    background-color: #4e87b3;
+  }
+  #cat{
+    background-color: #b3a8e8;
+  }
+  #dog{
+    background-color: #a8d7e8;
+  }

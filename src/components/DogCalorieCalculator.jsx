@@ -36,10 +36,17 @@ const DogCalorieCalculator = () => {
     switch (meatOption) {
       case 'chicken':
         meatRatio = 0.4;
-        boneRatio = 0.;
+        boneRatio = 0.1;
         liverRatio = 0.1;
         veggiesRatio = 0.3;
         fruitsRatio = 0.1;
+        break;
+        case 'rabbit':
+          meatRatio = 0.6;
+        boneRatio = 0.05;
+        liverRatio = 0.1;
+        veggiesRatio = 0.2;
+        fruitsRatio = 0.05;
         break;
       case 'lamb':
         meatRatio = 0.4;
@@ -120,6 +127,7 @@ const DogCalorieCalculator = () => {
           <option value="none">Оберіть м'ясо</option>
           <option value="chicken">Куряче філе</option>
           <option value="lamb">Вирізка із баранини</option>
+          <option value="rabbit">Кролик</option>
         </select>
       </div>
 
